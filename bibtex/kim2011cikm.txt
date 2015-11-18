@@ -1,0 +1,6 @@
+@inproceedings{kim2011cikm,
+title={Accounting for Data Dependencies within a Hierarchical Dirichlet Process Mixture Model}, 
+author={Dongwoo Kim and Alice Oh},
+booktitle={Proceedings of the 20th ACM Conference on Information and Knowledge Management},
+year={2011}
+}

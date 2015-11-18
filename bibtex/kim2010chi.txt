@@ -1,0 +1,6 @@
+@inproceedings{kim2010chi,
+author = {Dongwoo Kim and Yohan Jo and Il-Chul Moon and Alice Oh},
+title = {Analysis of Twitter Lists as a potential source for discovering latent characteristics of users},
+booktitle={Workshop on Microblogging at the ACM Conference on Human Factors in Computer Systems},
+year = {2010}
+}

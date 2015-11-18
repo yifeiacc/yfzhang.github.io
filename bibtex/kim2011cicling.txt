@@ -1,0 +1,6 @@
+@inproceedings{kim2011cicling,
+author={Dongwoo Kim and Alice Oh},
+title={Topic Chains for Understanding a News Corpus},
+booktitle={Proceedings of the 12th International Conference on Intelligent Text Processing and Computational Linguistics},
+year={2011}
+}

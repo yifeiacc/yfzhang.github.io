@@ -1,0 +1,6 @@
+@article{kim2012arxiv,
+author={Dongwoo Kim and Yeonseung Chung and Alice Oh},
+title={Variable Selection for Latent Dirichlet Allocation},
+journal={arXiv ePrints:1205.1053},
+year={2012}
+}

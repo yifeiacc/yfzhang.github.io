@@ -1,0 +1,6 @@
+@inproceedings{kim2012icml,
+author={Dongwoo Kim and Suin Kim and Alice Oh},
+title={Dirichlet Process with Mixed Random Measures: a Nonparametric Topic Model for Labeled Data},
+booktitle={Proceedings of the 29th International Conference on Machine Learning},
+year={2012}
+}
