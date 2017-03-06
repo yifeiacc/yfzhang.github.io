@@ -16,23 +16,27 @@ h1,h2,h3,h4,h5,h6{
 }
 
 .profile {
-    position: absolute;
-	display: inline-block;
+	margin: 7px 0 0 10%;
+	min-width: 600px;
 }
-.profile.image{
+.profile-image {
+	display: inline-block;
 	width: 125px;
 	height: 125px;
-    border: 2px solid #eee;
+  border: 2px solid #eee;
 	border-radius: 5px;
-	margin-top: 10px;
-    margin-left: 60px;
+	vertical-align: middle;
 }
-.profile.detail {
-    margin-top: -10px;
-	margin-left: 210px;
+.profile-detail {
+	display: inline-block;
+	vertical-align: middle;
+	margin: -17px 0 0 30px;
 }
-
+.menu {
+	float: right;
+	margin: 5px 10% 0 0;
+	overflow: visible;
+}
 .container {
-    margin: 5px 0 0 50px;
+  margin: 5px 10% 15px 10%;
 }
-
