@@ -1,405 +1,61 @@
 <html>
-<head>
-<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
-<title> Dongwoo Kim </title>
+  <head>
+    <title> Dongwoo Kim </title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/custom.css">
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script>
+    $(document).ready(function() {
+        $("#p_navbar").load("./pages/navbar.html")
+        $("#p_work").load("./pages/work.html")
+        $("#p_education").load("./pages/education.html")
+        $("#p_publication").load("./pages/publication.html")
+        $("#p_award").load("./pages/award.html")
+        $("#p_service").load("./pages/service.html")
+        $("#p_presentation").load("./pages/presentation.html")
+        $("#p_activity").load("./pages/activity.html")
+        $("#p_teaching").load("./pages/teaching.html")
+        $("#p_reference").load("./pages/reference.html")
+    });
+    </script>
+    <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+    ga('create', 'UA-92946797-1', 'auto');
+    ga('send', 'pageview');
+    </script>
+  </head>
+  <body>
+    <div id="p_navbar"></div>
+    <div class="container">
+    	<h2>Research Interests</h2>
+        <div class="div-item">
+        	Machine Learning, Topic models, Bayesian nonparametrics, Computational Social Science<br/>
+    	    <a href="rs_dongwoo.pdf">[Research Statement]</a><br/>
+            <!--
+            <ul>
+            <a href="TM.html">Topic Model Bibliography</a>
+            </ul>
+            -->
+    		<!--<a href="http://arongdari.tistory.com">Tistory blog</a><br>-->
+    		<a href="http://scholar.google.com/citations?hl=en&user=RkspD6IAAAAJ">Google Scholar</a><br>
+    		<!--&nbsp; <a href="http://www.facebook.com/arongdari">Facebook</a><br>-->
+    		<a href="http://github.com/arongdari">GitHub</a>
+        </div>
+    </div>
 
-<style type="text/css">
-a:link {color:#0b5395}
-a:visited {color:#555395}
-
-h1,h2,h3,h4,h5,h6{
-	font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
-	text-transform: uppercase;
-}
-
-.li-item {
-	font-size: 16px;
-	margin-bottom: 10px;
-}
-.div-item {
-	font-size: 16px;
-	margin: 0 0 10px 20px;
-}
-#wrapper {
-  margin: 0 30px 0 30px;
-  text-align:left;
-}
-
-.profile {
-	display: inline-block;
-	vertical-align: middle;
-}
-.profile.image{
-	width: 180px;
-	height: 180px;
-	border-radius: 5px;
-	margin-top: 20px;
-}
-.profile.detail {
-	margin-left: 20px;
-}
-.container {
-	padding: 5px;
-	margin-bottom: 10px;
-}
-
-
-</style>
-
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-92946797-1', 'auto');
-  ga('send', 'pageview');
-
-</script>
-
-</head>
-<body>
-<div id="wrapper">
-
-<div class="container">
-
-	<img class="profile image" src="images/profile.jpg" alt="@ Yellow stone national park">
-	<div class="profile detail">
-		<h2>Dongwoo Kim (김동우, 金東佑), Ph.D.</h2>
-		dongwoo.kim(at)anu.edu.au<br>
-		Postdoctoral Fellow<br>
-		Research School of Computer Science<br>
-		ANU, Canberra, Australia<br>
-		<br>
-		<!--<a href="http://arongdari.tistory.com">Tistory blog</a><br>-->
-		<a href="http://scholar.google.com/citations?hl=en&user=RkspD6IAAAAJ">Google Scholar</a><br>
-		<!--&nbsp; <a href="http://www.facebook.com/arongdari">Facebook</a><br>-->
-		<a href="http://github.com/arongdari">GitHub</a>
-	</div>
-
-</div>
-<!--<h2>I am currently looking for a job/postdoc position! Please contact me if appropriate positions are available!</h2>
--->
-
-<div id="work" class="container">
-	<h2>Work Experiences</h2>
-	<div class="div-item">
-		Australia National University, Postdoctoral research fellow, Jul.2015 ~
-		<ul>
-			<li>
-			Advisor: <a href="http://users.cecs.anu.edu.au/~xlx/">Lexing Xie</a>
-			</li>
-		</ul>
-	</div>
-	<div class="div-item">
-		Microsoft Research (MSR), Intern Researcher, Jun.2013 ~ Aug. 2013
-		<ul>
-			<li>eScience group</li>
-			<li>Mentor: Nebojsa Jojic, <a href="https://scholar.google.com.au/citations?user=9tkRoJ4AAAAJ&hl=en">Alessandro Perina</a></li>
-			<li>Project : Browsing Document Collection with Counting Grid</li>
-		</ul>
-	</div>
-	<div class="div-item">
-		Microsoft Research Asia (MSRA), Intern Researcher, Sep.2012 ~ Feb. 2013
-		<ul>
-			<li>Data Management, Analytics and Services Group</li>
-			<li>Mentor: <a href="https://scholar.google.com/citations?user=Q1mcglAAAAAJ">Haixun Wang</a></li>
-			<li>Project : Context-Dependent Conceptualization with Probase and Topic Model</li>
-		</ul>
-	</div>
-	<div class="div-item">
-		Electronics and Telecommunications Research Institute (ETRI), Intern Researcher, Jan.2008 ~ Feb.2008
-		<ul>
-			<li>Carrier Ethernet Research Team</li>
-			<li>Develop test automation tool for SMART-BIT 6000</li>
-			<!--
-			<li>
-			System Software Lab., Pohang University of Science and Technology(POSTECH)<br>
-			- Undergraduate Research Assistant<br>
-			- Develop Linux-kernel fast boot-up process for mobile embedded device<br>
-			- Jul. 2008 ~ Aug. 2008<br>
-			</li>
-			-->
-		</ul>
-	</div>
-</div>
-
-<div id="education" class="container">
-
-	<h2>Education</h2>
-	<div class="div-item">
-	2011 Feb. - 2015 Feb. : KAIST, Daejeon, South Korea (Ph.D. Candidate, Computer Science), Advisor: <a href="http://uilab.kaist.ac.kr/members/aliceoh/">Alice Oh</a><br>
-	Thesis: Nonparametric Topic Models with Multi-Labeled Dataset.
-	</div>
-	<div class="div-item">
-	2009 Feb. - 2011 Feb. : KAIST, Daejeon, South Korea (M.S., Computer Science), Advisor: <a href="http://uilab.kaist.ac.kr/members/aliceoh/">Alice Oh</a><br>
-	Thesis: Distance Dependent Chinese Restaurant Franchise. <a href="ThesisPresentation.pdf">[Slides]</a>
-	</div>
-	<div class="div-item">
-	2003 Mar. - 2009 Feb. : Sung Kyun Kwan Univeristy, Suwon, South Korea (B.S., Computer Science)<br>
-	</div>
-</div>
-
-<div id="interest" class="container">
-
-	<h2>Research Interests</h2>
-	<div class="div-item">
-	Machine Learning, Topic models, Bayesian nonparametrics, Computational Social Science<br/>
-	<a href="rs_dongwoo.pdf">[Research Statement]</a>
-	</div>
-
-<!--
-<ul>
-<a href="TM.html">Topic Model Bibliography</a>
-</ul>
--->
-</div>
-
-<div id="conference" class="container">
-
-	<h2>Peer-reviewed Publications</h2>
-	<ol>
-		<li class="li-item">
-			Jooyeon Kim, <b>Dongwoo Kim</b>, Jae Won Kim, and Alice Oh, Joint Modeling of Topics, Citations, and Topical Authority in Academic Corpora, Transactions of the Association for Computational Linguistics (TACL), In preparation.
-		</li>
-
-		<li class="li-item">
-		<b>Dongwoo Kim</b>, Alice Oh, Hierarchical Dirichlet Scaling Process, Machine Learning, 2017. <a href="http://link.springer.com/article/10.1007/s10994-016-5621-5">[Link]</a>
-		</li>
-
-		<li class="li-item">
-		<b>Dongwoo Kim</b>, Lexing Xie, Cheng Soon Ong, Probabilistic Knowledge Graph Construction: Compositional and Incremental Approaches, The ACM Conference on Information and Knowledge Managment (CIKM), 2016. <a href="https://arxiv.org/abs/1608.05921">[PDF]</a>
-		</li>
-
-		<li class="li-item">
-		Nebojsa Jojic, Alessandro Perina, <b>Dongwoo Kim</b>, Hierarchical learning of grids of microtopics, The Conference on Uncertainty in Artificial Intelligence (UAI), 2016. <a href="http://www.auai.org/uai2016/proceedings/papers/64.pdf">[PDF]</a> <a href="http://www.auai.org/uai2016/proceedings/supp/64_supp.pdf">[Appendix]</a>
-		</li>
-
-		<li class="li-item">
-		Jooyeon Kim, Joon Hee Kim, <b>Dongwoo Kim</b>, Alice Oh. Diversity-seeking users and their influence on social news sites, Workshop on Data Science for News Publishing (NewsKDD) at KDD 2014, Newyork, US, 2014. <a href="papers/newskdd2014/newskdd2014.pdf">[PDF]</a>
-		</li>
-
-		<li class="li-item">
-		Alessandro Perina, <b>Dongwoo Kim</b>, Andrzej Turski, Nebojsa Jojic. Skim-reading thousands of documents in one minute: Data indexing and visualization for multifarious search, Workshop on Interactive Data Exploration and Analytics (IDEA'14) at KDD 2014, Newyork, US, 2014. <a href="papers/idea2014/idea2014.pdf">[PDF]</a>
-		</li>
-
-		<li class="li-item">
-		<b>Dongwoo Kim</b>, Alice Oh, Hierarchical Dirichlet Scaling Process, The 31st International Conference on Machine Learning (ICML 2014), Beijing, China, 2014. (Acceptance rate = 25.0%)  <a href="http://uilab.kaist.ac.kr/research/ICML14/icml2014_kim.pdf">[PDF]</a> <a href="http://uilab.kaist.ac.kr/research/ICML14/icml2014_kim_appendix.pdf">[Appendix]</a> <a href="http://uilab.kaist.ac.kr/research/ICML14/hdsp.zip">[Code]</a>
-		</li>
-
-		<li class="li-item">
-		<b>Dongwoo Kim</b>, Haixun Wang, Alice Oh, Context-Dependent Conceptualization, The Twenty-Third International Conference on Aritifical Intelligence (IJCAI 2013), Beijing, China, 2013. (Oral Presentation, oral acceptance rate = 13.2%) <a href="http://ijcai.org/papers13/Papers/IJCAI13-391.pdf">[PDF]</a> <a href="http://probase.msra.cn/">[Probase]</a>
-		</li>
-
-		<li class="li-item">
-		JinYeong Bak, <b>Dongwoo Kim</b>, Alice Oh, Distributed Online Learning for Latent Dirichlet Allocation, Workshop on Big Learning : Algorithms, Systems, and Tools at the Neural Information Processing Systems. Lake Tahoe, US, 2012. <a href="http://uilab.kaist.ac.kr/research/NIPSBL12/nips2012_bak_kim_oh.pdf">[PDF]</a>
-		</li>
-
-		<li class="li-item">
-		Joon Hee Kim, <b>Dongwoo Kim</b>, Suin Kim, Alice Oh, Modeling Topic Hierarchies with the Recursive Chinese Restaurant Process,
-		The 21st ACM International Conference on Information and Knowledge Management (CIKM 2012), Hawaii, US, 2012. (acceptance rate = 13.4%) <a href="http://uilab.kaist.ac.kr/research/CIKM12/cikm2012.pdf">[PDF]</a> <a href="./bibtex/kim2012cikm.txt">[Bibtex]</a>
-		</li>
-
-		<li class="li-item">
-		<b>Dongwoo Kim</b>, Suin Kim, Alice Oh, Dirichlet Process with Mixed Random Measures: A Nonparametric Topic Model for Labeled Data,
-		The 29th International Conference on Machine Learning (ICML 2012), Edinburgh, UK, 2012. (acceptance rate = 27.3%) <a href="http://uilab.kaist.ac.kr/research/ICML11/dongwoo_icml2012_final_submission.pdf">[PDF]</a> <a href="./20120619-ICML-Poster.pdf">[Poster]</a> <a href="./bibtex/kim2012icml.txt">[Bibtex]</a>
-		</li>
-
-		<li class="li-item">
-		<b>Dongwoo Kim</b>, Alice Oh, Accounting for Data Dependencies within a Hierarchical Dirichlet Process Mixture Model, 20th ACM Conference on Information and Knowledge Managment (CIKM 2011), Scotland, UK, 2011. (short paper, long + short acceptance rate = 25%) <a href="cikm2011_dongwoo_alice.pdf">[PDF]</a> <a href="http://uilab.kaist.ac.kr/research/CIKM11/CIKM-slide.pdf">[Slides]</a>  <a href="./bibtex/kim2011cikm.txt">[Bibtex]</a>
-		</li>
-
-		<li class="li-item">
-		<b>Dongwoo Kim</b>, Alice Oh, Topic Chains for Understanding a News Corpus, 12th International Conference on Intelligent Text Processing and Computational Linguistics(CICLING 2011), Tokyo, Japan, 2011. (acceptance rate = 24.8%) <a href="http://www.springerlink.com/content/7853085022124651/">[PDF]</a> <a href="http://uilab.kaist.ac.kr/research/CICLING2011/cicling2011.pdf">[Slides]</a>  <a href="./bibtex/kim2011cicling.txt">[Bibtex]</a>
-		</li>
-
-		<li class="li-item">
-		Il-Chul Moon, <b>Dongwoo Kim</b>, Yohan Jo, Alice Oh, Learning Influence Propagation of Personal Blogs with Content and Network Analyses, Workshop on Finding Synergies Between Texts and Networks at the IEEE International Conference On Social Computing(SocialCom 2010). MN, US, 2010. <a href="http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=5591523&tag=1">[PDF]</a>
-		</li>
-
-		<li class="li-item">
-		Il-Chul Moon, <b>Dongwoo Kim</b>, Yohan Jo, and Alice H. Oh, Learning Influence Propagation on Personal Blogs, The 30th Annual International Sunbelt Social Network Conference, Trento, Italy, Jun 29-Jul 4, 2010
-		</li>
-
-		<li class="li-item">
-		<b>Dongwoo Kim</b>, Yohan Jo, Il-Chul Moon, and Alice Oh. Analysis of Twitter Lists as a Potential Source for Discovering Latent Characteristics of Users, Workshop on Microblogging at the ACM Conference on Human Factors in Computer Systems (CHI 2010). Atlanta, GA, US, 2010. <a href="http://people.csail.mit.edu/aoh/papers/chi2010microblogging.pdf">[PDF]</a>  <a href="./bibtex/kim2010chi.txt">[Bibtex]</a> <a href="http://uilab.kaist.ac.kr/research/CHI10-Twitter/dwkim_long_version.pdf">[Long version]</a>
-		</li>
-	</ol>
-
-	<!--
-	<h3>Domestic Conferences/Workshops</h3>
-	<ol start="17">
-		<li class="li-item">
-		Yohan Jo, <b>Dongwoo Kim</b>, Il-Chul Moon, Alice Oh, LDA를 이용한 대용량 블로그 데이터 처리, 정보과학회 인공지능 추계 워크샵, 2009
-		</li>
-	</ol>
-	-->
-
-	<h3>Technical Report/Manuscript</h3>
-	<ol start="17">
-		<li class="li-item">
-			Christian Walder, <b>Dongwoo Kim</b>, Computer Assisted Composition with Recurrent Neural Networks, arXiv:1612.00092, 2016. <a href="https://arxiv.org/pdf/1612.00092">[PDF]</a>
-		</li>
-		<li class="li-item">
-		<b>Dongwoo Kim</b>, Yeonseung Chung, Alice Oh, Variable Selection for Latent Dirichlet Allocation, arXiv:1205.1053, 2012.  <a href="http://arxiv.org/abs/1205.1053">[PDF]</a>  <a href="./bibtex/kim2012arxiv.txt">[Bibtex]</a><br/>
-		</li>
-	</ol>
-</div>
-
-<div id="award" class="container">
-	<h2>Awards & Scholarships </h2>
-	<ul>
-	<li class="li-item">Outstanding dissertation award, Department of computer science, KAIST, 2015</li>
-	<li class="li-item">Microsoft research fellowship nomination award, Microsoft research asia, 2013</li>
-	<li class="li-item">ICML student travel scholarship, International machine learning society, 2012</li>
-	<li class="li-item">National science & technology scholarship, Korea student aid foundation, 2008</li>
-	</ul>
-</div>
-
-<div id="service" class="container">
-	<h2>Services</h2>
-	<ul>
-	<li class="li-item">
-	Reviewer of Transactions on Information Systems, Journal of Computer Science and Engineering
-	</li>
-	<li class="li-item">
-	Reviewer of NIPS2016, ACL2015, EMNLP2015, <a href="https://sites.google.com/site/socialnlp2016/">SocialNLP-2016</a>
-	</li>
-	<li class="li-item">
-	Sub-reviewer of AAAI-15, WWW2015, ICWSM-15
-	</li>
-	</ul>
-</div>
-
-<div id="presentation" class="container">
-	<h2>Presentations</h2>
-	<ul>
-	<li class="li-item">
-		2016.11.15, Probabilistic Knowledge Graph Construction, Data To Decisions CRC, Canberra, Australia
-	</li>
-	<li class="li-item">
-		2016.05.11, Thompson Sampling and Compositions in Knowledge Bases with Uncertainty, Monash, Melbourne, Australia
-	</li>
-	<li class="li-item">
-		2015.07.30, Measuring scholaric impact of researcher: Latent Topical-Authority Indexing (LTAI), NICTA, Australia
-	</li>
-	<li class="li-item">
-		2014.03.21. Introduction to Probabilistic Topic Models, UNIST, Ulsan, Korea
-	</li>
-	<li class="li-item">
-		2014.02.17. Topic model and its applications, NHN, Korea
-	</li>
-	<li class="li-item">
-		2011.08.04. Social Media Mining Using Topic Models, NIMS, Korea
-	</li>
-	</ul>
-</div>
-
-<div id="skill" class="container">
-	<h2>Skills</h2>
-	<ul>
-	<li class="li-item">
-	Python, Java, Matlab, C</br>
-	</li>
-	</ul>
-</div>
-
-<div id="coursework" class="container">
-	<h2>Graduate Coursework</h2>
-	<ul>
-	<li class="li-item">
-	Topics in Artificial Intelligence: Probabilistic Topic Models, Spring 2011, Alice Oh</br>
-	</li>
-	<li class="li-item">
-	Designs for Software and Systems, Fall 2010</br>
-	</li>
-	<li class="li-item">
-	Information Retrieval, Spring 2010, Sung-hyon Myaeng.</br>
-	</li>
-	<li class="li-item">
-	<a href="http://ailab.kaist.ac.kr/courses/2009/cs671">Machine Learning</a>, Fall 2009. Kee-Eung Kim.<br>
-	</li>
-	<li class="li-item">
-	<a href="http://web.kaist.ac.kr/~kyomin/Fall09MRF/">Markov Random Fields: Theory and Application</a>, Fall 2009. Kyomin Jung.<br>
-	</li>
-	<li class="li-item">
-	<a href="http://mathsci.kaist.ac.kr/~nipl/cc511/">Probability and Statistics</a>, Fall 2009. Rhee Man Kil.<br>
-	</li>
-	<li class="li-item">
-	<a href="http://uilab.kaist.ac.kr/course/CS570_2009_Spring.html">Introduction to Artificial Intelligence</a>, Spring 2009. Alice Oh.<br>
-	</li>
-	<li class="li-item">
-	<a href="http://tclab.kaist.ac.kr/~cs500/">Algorithm Design and Analysis</a>, Spring 2009. Sunghee Choi.<br>
-	</li>
-	<li class="li-item">
-	<a href="http://web.kaist.ac.kr/~jhhuh/cs510_sp2009/">Computer Architecture</a>, Spring 2009. Jaehyuk Huh<br>
-	</li>
-	</ul>
-</div>
-
-<div id="activity" class="container">
-	<h2>Activities</h2>
-	<ul>
-	<li class="li-item">
-	<a href="http://tw.rpi.edu/wiki/SummerProgram2009">Web Science Summer Research 2009 at RPI</a>, NY<br>
-
-	- Sponsored by:<br>
-	- Web Science Research Initiative, RPI Tetherless World Constellation, EPSRC Doctoral Training in Web Science<br>
-	- Directed by Professors: Wendy Hall, James Hendler, Deborah McGuinness<br>
-	</li>
-	<li class="li-item">
-	Deputy chairman of the M.S. council at computer science department of KAIST, 2010
-	</li>
-	</ul>
-</div>
-
-<div id="teaching" class="container">
-	<h2>Teaching Experiences</h2>
-	<ul>
-	<li class="li-item">
-	Guest Lecturer, Topics in Artificial Intelligence: Probabilistic Topic Models, 2011, KAIST CS, Korea<br>
-	- Title : Dirichlet Process Mixture Model and its Application
-	</li>
-
-	<li class="li-item">
-	Guest Lecturer, Advanced Machine Learning, 2012, KAIST CS, Korea<br>
-	- Title: Non-parametric Bayesian Models
-	</li>
-
-	<li class="li-item">
-	Algorithms:Design and Analysis (Prof. Kyomin Jung), Teaching Assistant, KAIST (Spring 2011)
-	</li>
-	<li class="li-item">
-	Artificial Intelligence (Prof. Alice Oh), Teaching Assistant, KAIST (Fall 2010, Fall 2011)
-	</li>
-	<li class="li-item">
-	Undergraduate Research Program, Teaching Assistant, KAIST (Fall 2010)
-	</li>
-	</ul>
-</div>
-
-<div id="reference" class="container">
-	<h2>References</h2>
-	<div class="div-item">
-		Available upon request
-	</div>
-</div>
-<!--
-<script type="text/javascript">
-var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-</script>
-<script type="text/javascript">
-try {
-var pageTracker = _gat._getTracker("UA-9613157-2");
-pageTracker._trackPageview();
-} catch(err) {}</script>
-
-<div id="clustrmaps-widget"></div><script type="text/javascript">var _clustrmaps = {'url' : 'http://uilab.kaist.ac.kr/members/dongwoo/', 'user' : 1168619, 'server' : '3', 'id' : 'clustrmaps-widget', 'version' : 1, 'date' : '2015-04-29', 'lang' : 'en', 'corners' : 'square' };(function (){ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = 'http://www3.clustrmaps.com/counter/map.js'; var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);})();</script><noscript><a href="http://www3.clustrmaps.com/user/83611d4eb"><img src="http://www3.clustrmaps.com/stats/maps-no_clusters/uilab.kaist.ac.kr-members-dongwoo--thumb.jpg" alt="Locations of visitors to this page" /></a></noscript>
--->
-
-</body>
+    <div id="p_navbar"></div>
+    <div id="p_work"></div>
+    <div id="p_education"></div>
+    <div id="p_publication"></div>
+    <div id="p_award"></div>
+    <div id="p_service"></div>
+    <div id="p_presentation"></div>
+    <div id="p_activity"></div>
+    <div id="p_teaching"></div>
+    <div id="p_reference"></div>
+  </body>
 </html>
