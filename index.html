@@ -1,104 +1,54 @@
 <html>
 <head>
-<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <title> Dongwoo Kim </title>
-
-<style type="text/css">
-a:link {color:#0b5395}
-a:visited {color:#555395}
-
-h1,h2,h3,h4,h5,h6{
-	font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
-	text-transform: uppercase;
-}
-
-.li-item {
-	font-size: 16px;
-	margin-bottom: 10px;
-}
-.div-item {
-	font-size: 16px;
-	margin: 0 0 10px 20px;
-}
-#wrapper {
-  margin: 0 30px 0 30px;
-  text-align:left;
-}
-
-.profile {
-	display: inline-block;
-	vertical-align: middle;
-}
-.profile.image{
-	width: 120px;
-	height: 120px;
-	border-radius: 5px;
-	margin-top: 20px;
-}
-.profile.detail {
-	margin-left: 20px;
-}
-.container {
-	padding: 5px;
-	margin-bottom: 10px;
-    display: block;
-    overflow: visible;
-}
-
-
-</style>
-
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-
+<link rel="stylesheet" href="css/custom.css">
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+<script>
+$(document).ready(function() {
+    $("#p_navbar").load("./pages/navbar.html")
+    $("#p_work").load("./pages/work.html")
+});
+</script>
 </head>
 <body>
-<div id="wrapper">
-
-<div class="container">
-
-	<img class="profile image" src="images/profile.jpg" alt="@ Yellow stone national park">
-	<div class="profile detail">
-		<h2>Dongwoo Kim, Ph.D.</h2>
-		dongwoo.kim(at)anu.edu.au<br>
-		Postdoctoral Fellow<br>
-		Research School of Computer Science<br>
-		ANU, Canberra, Australia<br>
-	</div>
-
-</div>
-<!--<h2>I am currently looking for a job/postdoc position! Please contact me if appropriate positions are available!</h2>
--->
-
-	    <h2>Research Interests</h2>
-    	<div class="div-item">
-    	Machine Learning, Topic models, Bayesian nonparametrics, Computational Social Science<br/>
-    	<a href="rs_dongwoo.pdf">[Research Statement]</a>
-    	</div>
-
-        <!--
-        <ul>
-        <a href="TM.html">Topic Model Bibliography</a>
-        </ul>
-        -->
-		<br>
-		<!--<a href="http://arongdari.tistory.com">Tistory blog</a><br>-->
-		<a href="http://scholar.google.com/citations?hl=en&user=RkspD6IAAAAJ">Google Scholar</a><br>
-		<!--&nbsp; <a href="http://www.facebook.com/arongdari">Facebook</a><br>-->
-		<a href="http://github.com/arongdari">GitHub</a>
-
-
-        <object class="container" type="text/html" data="pages/work.html"></object>
-        <object class="container" type="text/html" data="pages/education.html"></object>
-        <object class="container" type="text/html" data="pages/publication.html"></object>
+    <div id="p_navbar"></div>
+    <div class="container">
+    	<h2>Research Interests</h2>
+        <div class="div-item">
+        	Machine Learning, Topic models, Bayesian nonparametrics, Computational Social Science<br/>
+    	    <a href="rs_dongwoo.pdf">[Research Statement]</a><br/>
+            <!--
+            <ul>
+            <a href="TM.html">Topic Model Bibliography</a>
+            </ul>
+            -->
+    		<!--<a href="http://arongdari.tistory.com">Tistory blog</a><br>-->
+    		<a href="http://scholar.google.com/citations?hl=en&user=RkspD6IAAAAJ">Google Scholar</a><br>
+    		<!--&nbsp; <a href="http://www.facebook.com/arongdari">Facebook</a><br>-->
+    		<a href="http://github.com/arongdari">GitHub</a>
+        </div>
+    </div>
+    <div id="p_work"></div>
+    <div class="container">
         <object class="container" type="text/html" data="pages/award.html"></object>
+    </div>
+    <div class="container">
         <object class="container" type="text/html" data="pages/service.html"></object>
+    </div>
+    <div class="container">
         <object class="container" type="text/html" data="pages/presentation.html"></object>
-        <object class="container" type="text/html" data="pages/skill.html"></object>
-        <object class="container" type="text/html" data="pages/coursework.html"></object>
+    </div>
+    <div class="container">
         <object class="container" type="text/html" data="pages/activity.html"></object>
+    </div>
+    <div class="container">
         <object class="container" type="text/html" data="pages/teaching.html"></object>
+    </div>
+    <div class="container">
         <object class="container" type="text/html" data="pages/reference.html"></object>
+    </div>
 
 </div>
 </body>
