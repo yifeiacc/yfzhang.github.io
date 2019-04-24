@@ -1,0 +1,11 @@
+<svg width="320" height="170" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <g>
+      <circle id="c1" class="hl-circle" cx="70" cy="100" r="60" style="fill:transparent; stroke-width: 20; stroke: #333;"></circle>
+      <circle id="c2" class="hl-circle" cx="250" cy="100" r="60" style="fill:transparent; stroke-width: 20; stroke: #333;"></circle>
+      <circle id="ci1" class="hl-circle" cx="80" cy="100" r="16" style="fill:transparent; stroke-width: 24; stroke: #333;"></circle>
+      <circle id="ci2" class="hl-circle" cx="240" cy="100" r="16" style="fill:transparent; stroke-width: 24; stroke: #333;"></circle>
+      <line x1="120" x2="200" y1="100" y2="100" stroke="#333" stroke-width="20"/>
+      <line x1="13" x2="110" y1="13" y2="13" stroke="#333" stroke-width="25" stroke-linecap="round"/>
+      <line x1="210" x2="307" y1="13" y2="13" stroke="#333" stroke-width="25" stroke-linecap="round"/>
+  </g>
+</svg>
