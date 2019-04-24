@@ -3,7 +3,7 @@ a:visited {color:#555395}
 
 h1,h2,h3,h4,h5,h6{
 	font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
-	text-transform: uppercase;
+	/* text-transform: uppercase; */
 }
 
 .li-item {
@@ -15,29 +15,69 @@ h1,h2,h3,h4,h5,h6{
 	margin: 0 0 10px 20px;
 }
 
-.profile {
-	margin: 7px 0 0 0;
-	min-width: 600px;
-}
-.profile-image {
-	display: inline-block;
-	width: 125px;
-	height: 125px;
-    border: 2px solid #eee;
-	border-radius: 5px;
-	vertical-align: middle;
-}
-.profile-detail {
-	display: inline-block;
-	vertical-align: middle;
-	margin: -17px 0 0 30px;
+.title {
+	margin: 12px 0 0 20px;
+	font-size: 24px;
+	font-weight: bold;
+	vertical-align: bottom;
+	height: 34px;
+	color: #333;
 }
 .menu {
 	float: right;
 	margin: 5px 5px 0 0;
 	overflow: visible;
 }
+
+.profile-image {
+	display: inline-block;
+	width: 150px;
+	height: 150px;
+  border: 2px solid #eee;
+	border-radius: 5px;
+	vertical-align: top;
+	margin-bottom: 5px;
+	margin-right: 25px;
+}
+.btn-cv {
+	width: 148px;
+	height: 32px;
+}
+.btn-icon {
+	height: 36px;
+	width: 36px;
+	margin: 0 2px;
+	font-size: 20px;
+	padding: 0;
+	margin-bottom: 5px;
+	border: 1px solid #eee;
+	border-radius: 18px;
+	color: #fff;
+	background-color: #162f59;
+}
+.btn-gscholar {
+  content: '';
+  -webkit-mask: url(../images/gscholar.svg) no-repeat 50% 50%;
+  mask: url(../images/gscholar.svg) no-repeat 50% 50%;
+  -webkit-mask-size: cover;
+  mask-size: cover;
+}
+.btn-gscholar:hover{
+	content: '';
+  -webkit-mask: url(../images/gscholar-h.svg) no-repeat 50% 50%;
+  mask: url(../images/gscholar-h.svg) no-repeat 50% 50%;
+  -webkit-mask-size: cover;
+  mask-size: cover;
+}
+
+.profile-detail {
+	vertical-align: middle;
+	font-size: 17px;
+	margin: 0px 0 0 30px;
+}
+
 .container {
-    max-width: 950px;
-    padding: 5px 5% 15px 5%;
+  /* max-width: 1200px; */
+	margin-top: -40px;
+  padding: 60px 5% 15px 5%;
 }
