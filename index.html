@@ -1,52 +1,17 @@
 <html>
   <head>
     <title> Dongwoo Kim </title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- <link rel="icon" href="images/dw.png" type="image/x-icon" sizes="16x16"> -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css" integrity="sha384-PmY9l28YgO4JwMKbTvgaS7XNZJ30MK9FAZjjzXtlqyZCqBY6X6bXIkM++IkyinN+" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
     <link rel="stylesheet" href="css/custom.css">
-    <script type="text/javascript" src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
-    <script>
-    $(document).ready(function() {
-        $("#p_navbar").load("./pages/navbar.html")
-        $("#p_work").load("./pages/work.html")
-        $("#p_education").load("./pages/education.html")
-        $("#p_publication").load("./pages/publication.html")
-        $("#p_award").load("./pages/award.html")
-        $("#p_service").load("./pages/service.html")
-        $("#p_presentation").load("./pages/presentation.html")
-        $("#p_teaching").load("./pages/teaching.html")
-        $("#p_reference").load("./pages/reference.html")
-    });
-    </script>
-    <script>
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-    ga('create', 'UA-92946797-1', 'auto');
-    ga('send', 'pageview');
-    </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js" integrity="sha384-vhJnz1OVIdLktyixHY4Uk3OHEwdQqPppqYR8+5mjsauETgLOcEynD9oPHhhz18Nw" crossorigin="anonymous"></script>
+
   </head>
   <body>
     <div id="p_navbar"></div>
-    <div class="container">
-    	<h2>Research Interests</h2>
-        <div class="div-item">
-        	Machine Learning, Topic models, Bayesian nonparametrics, Computational Social Science<br/>
-            <!--
-            <ul>
-    	    <a href="rs_dongwoo.pdf">[Research Statement]</a><br/>
-            <a href="TM.html">Topic Model Bibliography</a>
-            </ul>
-            -->
-            <a href="https://dongwookim-ml.github.io/cv.pdf">CV</a><br>
-	<a href="http://scholar.google.com/citations?hl=en&user=RkspD6IAAAAJ">Google Scholar</a><br>
-	<!--&nbsp; <a href="http://www.facebook.com/arongdari">Facebook</a><br>-->
-	<a href="http://github.com/dongwookim-ml">GitHub</a>
-        </div>
-    </div>
-
-    <div id="p_navbar"></div>
+    <div id="p_intro"></div>
     <div id="p_work"></div>
     <div id="p_education"></div>
     <div id="p_publication"></div>
@@ -57,3 +22,26 @@
     <div id="p_reference"></div>
   </body>
 </html>
+<script>
+$(document).ready(function() {
+    $("#p_navbar").load("./pages/navbar.html")
+    $("#p_intro").load("./pages/intro.html")
+    $("#p_work").load("./pages/work.html")
+    $("#p_education").load("./pages/education.html")
+    $("#p_publication").load("./pages/publication.html")
+    $("#p_award").load("./pages/award.html")
+    $("#p_service").load("./pages/service.html")
+    $("#p_presentation").load("./pages/presentation.html")
+    $("#p_activity").load("./pages/activity.html")
+    $("#p_teaching").load("./pages/teaching.html")
+    $("#p_reference").load("./pages/reference.html")
+});
+</script>
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+ga('create', 'UA-92946797-1', 'auto');
+ga('send', 'pageview');
+</script>
